@@ -1,35 +1,35 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-.container_mobile{
+.wrapper{
     max-width: 320px;
     margin: 0 auto;
     text-align: center;
 }
 .header{
-    border-bottom: 5px solid #0088BF;;
+    border-bottom: 5px solid #0088BF;
 }
-.container_mobile .title{
+.wrapper .title{
     font-size: 30px;
     font-weight: bold;
     padding: 20px 0 10px 0;
+    border-bottom: 3px solid #0088BF;
 
 }
-.container_mobile .text{
+.wrapper .text{
     font-size: 20px;
     padding: 20px 0 0 0;
 }
-.container_mobile .text:last-child{
+.wrapper .text:last-child{
     padding-bottom: 50px;
 }
-.container_mobile img{
+.wrapper img{
     max-width: 320px;
     padding: 10px 0 20px 0;
 }
-.container_mobile a{
+.wrapper a{
     display: inline-block;
     font-size: 25px;
     text-decoration: none;
